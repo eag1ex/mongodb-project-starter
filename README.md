@@ -1,6 +1,6 @@
 ## Mongo DB project starter
 #### - [ Developed by Eaglex ](http://eaglex.net)
-This is a get working, project starter, everything needed from connecting to database, mongoose schemas, and controller methods
+This is a get working project starter, everything needed from connecting to database, mongoose schemas, and controller methods.  **One to Many** ideology.
 
 ### Config.js
 Refer to config file, where you can set your database preferences
