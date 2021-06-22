@@ -1,0 +1,37 @@
+{
+  "name": "mongodb-project-starter",
+  "version": "1.0.0",
+  "description": "mongoDB project starter",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./mongo.populate",
+    "lint:install": "npm i babel-eslint eslint eslint-plugin-node eslint-plugin-standard eslint-plugin-promise@latest --save-dev",
+    "lint": "./node_modules/.bin/eslint  --ext .js libs",
+    "lint:fix": "./node_modules/.bin/eslint --fix --ext .js libs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "CC BY-NC-ND 2.0",
+  "author": "",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "~12.0.0",
+    "npm": "~6.9.0"
+  },
+  "dependencies": {
+    "mongoose": "^5.12.14",
+    "mongoose-validate": "0.0.5",
+    "rx": "^4.1.0",
+    "stream-json": "^1.7.1",
+    "x-fs": "git+ssh://git@eaglex_bitbucket:eag1ex/xfs.git",
+    "x-utils-es": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "bash-color": "0.0.4",
+    "eslint": "^7.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
