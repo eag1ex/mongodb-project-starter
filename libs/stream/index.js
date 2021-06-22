@@ -11,9 +11,7 @@ const { dataDump } = require('../../config')
 // NOTE  dataDump is the root directory, in which `/files/file-{key}` will be created
 const { writeFile, readFile } = require('x-fs')({ dir: dataDump, path: './files', ext: '.json' })
 
-/**
- * Write .geojson data to file sequentially
- */
+
 
 const StreamArray = require('stream-json/streamers/StreamArray')
 const fs = require('fs')
