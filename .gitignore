@@ -13,6 +13,8 @@ debuging
 mongoDB.bat
 assets
 dataDump
+desktop.ini
+
 # ignore all .pass.json files
 *.pass.json
 
