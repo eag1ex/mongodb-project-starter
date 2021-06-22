@@ -14,5 +14,9 @@ Current setup is based on Bucket/Subtask models
 2. execute the file `./mongoDB.bat` or run `/$ mongod --dbpath {pathToMongoData}` ()
 3. run script `/$ node mongo.populate.js`
 
+
+### Loading large 
+To load large json array file in sequence to database, refer to starter example in : `./libs/stream`
+
 ### Notes
 Not all files maybe required so remove what not needed.
